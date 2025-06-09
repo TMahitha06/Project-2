@@ -13,7 +13,7 @@ This is a **responsive personal portfolio website** built using modern web techn
 * **Contact Form:** Allows visitors to send messages directly through the website with instant feedback upon submission.
 * **Clean UI:** Modern, minimalistic design that focuses on readability and ease of navigation.
 
-**** Technologies Used****
+**Technologies Used**
 
 * **HTML5:** Semantic markup for better structure and SEO.
 * **CSS3:** Flexbox and Grid layouts for responsiveness and styling.
