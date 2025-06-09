@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h1>Hello, I'm [Your Name]</h1>
+      <p>
+        I'm a passionate developer with experience in web development and a keen interest in building intuitive and responsive applications.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>Brief description of your academic or personal project.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>Brief description of your academic or personal project.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <!-- Add your skills -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="formMessage"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
